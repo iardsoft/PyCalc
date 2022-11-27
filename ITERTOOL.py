@@ -45,7 +45,14 @@ def islice(iterable,start,stop=False,step=1):
 
 def starmap(func,i):
  for args in i:yield func(*args)
+  
 def takewhile(func,i):
  for j in i:
   if func(j):yield j
   else:break
+
+def enumerate(sequence, start=0):
+ n = start
+ for elem in sequence:
+  yield n, elem
+  n += 1
