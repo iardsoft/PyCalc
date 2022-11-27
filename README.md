@@ -1,2 +1,2 @@
 # PyCalc
-PyCalc is one pack of Python modules , port of Standard Library for omptimized use on Python Calculators .
+PyCalc is one pack of Python modules, port of Standard Library for optimized use on Python Calculators.
